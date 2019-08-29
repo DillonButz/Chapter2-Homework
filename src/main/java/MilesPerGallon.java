@@ -8,16 +8,14 @@
  *
  * @author 0808175
  */
-public class MainClass 
+public class MilesPerGallon 
 {
     public static void main(String[] args)
     {
-        System.out.println("Hello World");
-        int taxCalculation = 5;
-        if(taxCalculation >= 0);
-       {
-           System.out.println("Input cannot be 0");
-       }
-       
-       }
+        Float milesDriven = 250F;
+        Float gallonsOfGassUsed = 10F;
+        Float milesPerGallon = milesDriven/gallonsOfGassUsed;
+        
+        System.out.println("Miles Per Gallon:" + milesPerGallon);
     }
+}
